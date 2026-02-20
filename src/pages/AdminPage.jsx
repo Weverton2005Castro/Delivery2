@@ -56,7 +56,7 @@ export default function AdminPage() {
   return (
     <main className="admin-page">
       <header className="topbar">
-        <h1>Admin de Pedidos</h1>
+        <h1>Gerenciar Status Pedidos</h1>
         <Link to="/">Voltar ao catálogo</Link>
       </header>
 

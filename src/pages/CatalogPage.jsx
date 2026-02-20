@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
 import CartPanel from "../components/CartPanel";
 import CheckoutModal from "../components/CheckoutModal";
@@ -110,7 +110,7 @@ export default function CatalogPage() {
   return (
     <main className="catalog-page">
       <header className="topbar">
-        <h1>Delivery</h1>
+        <h1>Produtos</h1>
         {/* <Link to="/admin">Ir para admin</Link> */}
       </header>
 
